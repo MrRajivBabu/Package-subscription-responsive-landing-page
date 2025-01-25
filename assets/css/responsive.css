@@ -1,0 +1,166 @@
+
+/*******************************
+	default Responsive Code
+*******************************/
+
+@media screen and (max-width: 991px){
+	.section-padding {
+		padding: 50px 0;
+	}
+	.section-top-space {
+		margin-top: 70px;
+	}
+}
+@media screen and (max-width:577px){
+	.section-padding {
+		padding: 40px 0;
+	}
+	.section-top-space {
+		margin-top: 60px;
+	}
+}
+/*******************************
+	hero Responsive Code
+*******************************/
+
+@media screen and (max-width: 991px){
+	.hero-left {
+		margin-top: 170px;
+	}
+	.hero-right {
+		margin-top: 100px ;
+	}
+	.hero-right .content h3 {
+		font-size: 22px;
+		color: #000;
+	}
+	.hero-right .content h3 span {
+		visibility: hidden;
+	}
+	
+	
+	.hero-right .content p {
+		color: rgb(80, 80, 80);
+		line-height: 25px;
+	}
+}
+
+@media screen and (max-width: 246px) {
+	.hero-left {
+		margin-top: 70px;
+	}
+}
+
+/*******************************
+	Feature Responsive Code
+*******************************/
+@media screen and (max-width:577px){
+	.feature-box {
+		flex-direction: column;
+	}
+	.feature-icon span {
+		font-size: 30px;
+		height: 70px;
+		width: 70px;
+		padding: 16px;
+		border-radius: 50px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.feature-text h4 {
+		font-size: 17px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.feature-text p {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+/*******************************
+	pricing Responsive Code
+*******************************/
+
+@media screen and (max-width:577px) {
+	.pricing-left-content h3 {
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.pricing-left-content ul {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+/*******************************
+	testimonial Responsive Code
+*******************************/
+@media screen and (max-width:991px){
+
+.testimonial-single {
+    flex-direction: column;
+	text-align: center;
+}
+.testimonial-img img {
+    max-width: 100px;
+	margin-bottom: 20px;
+}
+
+}
+
+
+
+/*******************************
+	buy now Responsive Code
+*******************************/
+@media screen and (max-width:991px){
+.buy-now-left,
+.buy-now-right {
+    float: none;
+	text-align: center;
+}
+.buy-now-left {
+	margin-bottom: 20px;
+}
+.buy-now-right a,
+.buy-now-left a {
+	font-size: 14px;
+}
+}
+
+/*******************************
+	footer Responsive Code
+*******************************/
+@media screen and (max-width:991px){
+	.footer-left {
+		text-align: center;
+	}
+	.footer .footer-left-content .footer-menu {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	
+	.footer-right-content ul {
+		float: none;
+	}
+	.footer-right-content .social-icons ul li {
+		float: none;
+		display: inline-block;
+	}
+	.footer-right-content .contact-info p {
+		float: none;
+		line-height: 17px;
+	}
+	.footer-right {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:297px) {
+	.footer .footer-left-content .footer-menu ul li{
+		float: none;
+	}
+}
